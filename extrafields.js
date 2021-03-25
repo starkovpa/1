@@ -13,7 +13,7 @@ ec.order.extraFields.new_name = {
 
 // A text input that asks customer’s phone number
 ec.order.extraFields.new_phone = {
-  'title': 'Ваше телефон',
+  'title': 'Ваш телефон',
   'textPlaceholder': '79999999999',
   'type': 'text',
   'required': true,
