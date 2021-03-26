@@ -7,7 +7,8 @@ ec.order.extraFields.new_name = {
   'title': 'Ваше имя',
   'textPlaceholder': 'Роберт Паркер',
   'type': 'text',
-  'required': false
+  'required': false,
+  'checkoutDisplaySection': 'payment_details'
 };
 
 // A text input that asks customer’s phone number
