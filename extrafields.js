@@ -16,7 +16,8 @@ ec.order.extraFields.new_phone = {
   'title': 'Ваш телефон',
   'textPlaceholder': '79999999999',
   'type': 'text',
-  'required': false
+  'required': false,
+  'checkoutDisplaySection': 'payment_details'
 };
 
 Ecwid.refreshConfig();
