@@ -8,7 +8,7 @@ ec.order.extraFields.new_name = {
   'textPlaceholder': 'Роберт Паркер',
   'type': 'text',
   'required': true,
-  'checkoutDisplaySection': 'payment_details'
+  'checkoutDisplaySection': 'shipping_address'
 };
 
 // A text input that asks customer’s phone number
