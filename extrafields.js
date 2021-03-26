@@ -7,7 +7,7 @@ ec.order.extraFields.new_name = {
   'title': 'Ваше имя',
   'textPlaceholder': 'Роберт Паркер',
   'type': 'text',
-  'required': false,
+  'required': true,
   'checkoutDisplaySection': 'payment_details'
 };
 
@@ -16,7 +16,7 @@ ec.order.extraFields.new_phone = {
   'title': 'Ваш телефон',
   'textPlaceholder': '79999999999',
   'type': 'text',
-  'required': false,
+  'required': true,
   'checkoutDisplaySection': 'payment_details'
 };
 
