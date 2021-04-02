@@ -5,10 +5,11 @@ ec.order.extraFields = ec.order.extraFields || {};
 
 // A text input that asks customer’s name
 ec.order.extraFields.new_name = {
-  'title': 'Ваше имя',
-  'textPlaceholder': 'Роберт Паркер',
+  'title': 'В подарок?',
+  'textPlaceholder': 'да',
   'type': 'text',
   'orderDetailsDisplaySection': 'customer_info',
+  'checkoutDisplaySection': 'payment_details',
   'required': false
 };
 
