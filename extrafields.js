@@ -24,7 +24,7 @@ ec.order.extraFields.new_phone = {
 // A text input that shows additional info
 ec.order.extraFields.balance = {
   'title': 'Спасибо',
-  'value': '!',
+  
   'type': 'label',
   'required': false,
   'checkoutDisplaySection': 'payment_details'
