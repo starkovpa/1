@@ -1,3 +1,4 @@
+Ecwid.OnAPILoaded.add(function() {
 // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
@@ -7,6 +8,7 @@ ec.order.extraFields.new_name = {
   'title': 'Ваше имя',
   'textPlaceholder': 'Роберт Паркер',
   'type': 'text',
+  'orderDetailsDisplaySection': 'customer_info',
   'required': false
 };
 
@@ -18,4 +20,14 @@ ec.order.extraFields.new_phone = {
   'required': false
 };
 
+// A text input that shows additional info
+ec.order.extraFields.balance = {
+  'title': 'Спасибо',
+  'value': '!',
+  'type': 'label',
+  'required': false,
+  'checkoutDisplaySection': 'payment_details'
+};
+
 Ecwid.refreshConfig();
+});
